@@ -7,16 +7,16 @@ public class Main {
 
         // Get two numbers from the user
         System.out.print("Enter first number: ");
-        double num1 = scanner.nextDouble();
+        float num1 = scanner.nextFloat();
 
         System.out.print("Enter second number: ");
-        double num2 = scanner.nextDouble();
+        float num2 = scanner.nextFloat();
 
         // Get the operation from the user
         System.out.print("Enter an operator (+, -, *, /): ");
         char operator = scanner.next().charAt(0);
 
-        double result;
+        float result;
 
         // Use switch to perform the appropriate calculation
         switch (operator) {
